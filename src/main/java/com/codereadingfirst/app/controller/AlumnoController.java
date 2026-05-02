@@ -22,9 +22,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 public class AlumnoController {
 
     List<Alumno> alumnos = new ArrayList<>(List.of(
-        new Alumno("Sofía", 42),
-        new Alumno("Julio", 25),
-        new Alumno("Rodrigo", 30)
+        new Alumno("Aurora", 42, 1L),
+        new Alumno("César", 25, 2L),
+        new Alumno("Lucas", 30, 3L)
     ));
 
     private final AlumnoService alumnoService;

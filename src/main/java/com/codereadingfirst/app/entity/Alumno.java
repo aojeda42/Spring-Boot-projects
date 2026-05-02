@@ -25,9 +25,10 @@ public class Alumno {
     public Alumno() {
     }
 
-    public Alumno(String nombre, int edad) {
+    public Alumno(String nombre, int edad, Long idAlumno) {
         this.nombre = nombre;
         this.edad = edad;
+        this.idAlumno = idAlumno;
     }
 
     public Long getIdAlumno() {
