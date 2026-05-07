@@ -19,7 +19,6 @@ public class Alumno {
     @Column(nullable = false, length = 20)
     private String nombre;
     
-    @Column()
     private int edad;
 
     public Alumno() {
@@ -34,7 +33,6 @@ public class Alumno {
     public Long getIdAlumno() {
         return idAlumno;
     }
-
     public void setIdAlumno(Long idAlumno) {
         this.idAlumno = idAlumno;
     }
